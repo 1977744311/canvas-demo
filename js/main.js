@@ -21,11 +21,7 @@ eraser.onclick = function(){
     eraser.classList.add('active')
     pen.classList.remove('active')
 }
-bucket.onclick = function () {
-    fillstyll = color[index]
-    context.fillStyle = fillstyll;
-    context.fillRect(0, 0, yyy.width, yyy.height);
-}
+
 clear.onclick = function(){
     context.clearRect(0, 0, yyy.width, yyy.height);
 }
